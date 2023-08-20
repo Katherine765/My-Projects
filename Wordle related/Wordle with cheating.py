@@ -1,3 +1,5 @@
+#i feel like there was a bug but i don't remember what it was
+
 import random
 import time
 
