@@ -1,3 +1,5 @@
+#when you are doing the wordle on another website
+
 wordlist = []
 with open('wordle_words1.txt', 'r') as file:
     wordlist=[line.strip() for line in file.readlines()]
