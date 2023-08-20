@@ -1,3 +1,6 @@
+#set the word that it is solving for at the bottom, where "quick" is written
+#bot's current average is 3.631965442764579
+
 wordlist = []
 with open('wordle_words1.txt', 'r') as file:
     wordlist=[line.strip() for line in file.readlines()]
