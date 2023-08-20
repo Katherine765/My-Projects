@@ -33,10 +33,7 @@ class TTT():
 		return False
 
 	def switchPlayer(self):
-		if self.player==PLAYER1:
-			self.player=PLAYER2
-		else:
-			self.player=PLAYER1
+		self.player = PLAYER2 if self.player==PLAYER1 else PLAYER1
 
 def main():
 	ttt=TTT()
